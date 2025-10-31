@@ -7,6 +7,8 @@ import './Home.css';
 import LearningSection from '../componants/LearningSection';
 import Newssection from '../componants/Newssection';
 import Work from '../componants/Work';
+import Blue from './../componants/Bluediv';
+
 
 const Home = () => { 
   return (
@@ -18,6 +20,7 @@ const Home = () => {
       <LearningSection />
       <Newssection />
       <Work />
+   <Blue />
     </div>
   );
 };

@@ -1,0 +1,12 @@
+
+.backgroundd{
+    background-color: #1858A8;
+    width:100% ;
+    height: 560px;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgo{
+    width: 100px;
+}

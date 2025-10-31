@@ -1,0 +1,38 @@
+
+.cib-card {
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden; 
+    font-family: Arial, sans-serif;
+}
+
+.cib-card-header-bar {
+    height: 8px;
+    background-color: #FF8C00; 
+}
+
+
+.cib-card-content {
+    padding: 20px;
+}
+
+.cib-card-title {
+    font-size: 24px; 
+    font-weight: 700;
+    margin-top: 0; 
+    margin-bottom: 8px;
+    color: #333;
+}
+
+
+.cib-card-subtitle {
+    font-size:16px; 
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+
+

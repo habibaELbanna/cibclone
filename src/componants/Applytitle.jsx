@@ -1,10 +1,10 @@
 import React from 'react';
 import './ApplyTitle.css';
 
-const ApplyTitle = () => {
+const ApplyTitle = (props) => {
   return (
     <h2 className="apply-title">
-      Apply online now for cards and loans with ease!
+      {props.text}
     </h2>
   );
 };

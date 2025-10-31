@@ -4,11 +4,12 @@ import ApplyTitle from './Applytitle';
 import ApplyCard from './ApplyCard';
 import './ApplicationSection.css';
 
+
 const ApplicationSection = () => {
   return (
     <div className="application-section">
-      <ApplyLabel />      
-      <ApplyTitle />     
+ <ApplyLabel text="APPLY ONLINE" />   
+    <ApplyTitle text=" Apply online now for cards and loans with ease!" />  
       <div className="apply-cards-container">
         <ApplyCard icon="🏦" title="Apply for a New Account" />
         <ApplyCard icon="💳" title="Apply for a card" />

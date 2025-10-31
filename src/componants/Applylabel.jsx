@@ -1,10 +1,9 @@
 import React from 'react';
-import './ApplyLabel.css';
 
-const ApplyLabel = () => {
+const ApplyLabel = (props) => {
   return (
     <div className="apply-label">
-      APPLY ONLINE
+      {props.text}
     </div>
   );
 };
