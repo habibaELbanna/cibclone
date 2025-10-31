@@ -10,6 +10,7 @@ import Work from '../componants/Work';
 import Blue from './../componants/Bluediv';
 import SustainabilitySection from '../componants/SustainabilitySection';
 import AwardsSection from '../componants/AwardsSection';
+import WeCareSection from '../componants/WeCareSection';
 
 
 const Home = () => { 
@@ -25,6 +26,7 @@ const Home = () => {
    <Blue />
    <SustainabilitySection />
    <AwardsSection />
+   <WeCareSection />
   
     </div>
   );
