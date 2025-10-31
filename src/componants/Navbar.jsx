@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import logo from '../Assets/Image.png';
 import Nboutusnav from './Navnames'
+
 function Navbar() {
   return (
     <nav className="navbar">

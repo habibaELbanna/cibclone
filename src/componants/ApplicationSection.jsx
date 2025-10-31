@@ -7,8 +7,8 @@ import './ApplicationSection.css';
 const ApplicationSection = () => {
   return (
     <div className="application-section">
-      <ApplyLabel />       {/* Already inside! */}
-      <ApplyTitle />       {/* Already inside! */}
+      <ApplyLabel />      
+      <ApplyTitle />     
       <div className="apply-cards-container">
         <ApplyCard icon="🏦" title="Apply for a New Account" />
         <ApplyCard icon="💳" title="Apply for a card" />
