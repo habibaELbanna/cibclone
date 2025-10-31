@@ -1,0 +1,12 @@
+.apply-label {
+  display: inline-block;
+text-align: center;
+  color: #666;
+ display: flex;
+ justify-content: center;
+ margin-top: 60px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: white;
+}
