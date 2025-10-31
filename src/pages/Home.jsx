@@ -8,6 +8,7 @@ import LearningSection from '../componants/LearningSection';
 import Newssection from '../componants/Newssection';
 import Work from '../componants/Work';
 import Blue from './../componants/Bluediv';
+import SustainabilitySection from '../componants/SustainabilitySection';
 
 
 const Home = () => { 
@@ -21,6 +22,8 @@ const Home = () => {
       <Newssection />
       <Work />
    <Blue />
+   <SustainabilitySection />
+  
     </div>
   );
 };

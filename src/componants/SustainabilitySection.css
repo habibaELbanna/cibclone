@@ -1,0 +1,64 @@
+.sustainability-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.sustainability-preheader {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.sustainability-header {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #FF8C00; /* Orange color */
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+
+.sustainability-logos {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between logo items */
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    margin-bottom: 40px;
+}
+
+.logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; /* Fixed width for consistency */
+}
+
+.logo-item img {
+    height: 60px; /* Adjust as needed */
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.logo-item p {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.sustainability-button {
+    background-color: #1E58A4; /* Dark blue */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.sustainability-button:hover {
+    background-color: #164680;
+}
