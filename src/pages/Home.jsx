@@ -1,21 +1,19 @@
 import React from 'react';
 import Navbar from '../componants/Navbar';
 import Header from '../componants/Header';
-import './Home.css';
 import Middlenav from '../componants/Middlenav';
-import ApplyLabel from '../componants/Applylabel';
-import ApplyTitle from '../componants/Applytitle';
+import ApplicationSection from '../componants/ApplicationSection';  
+import './Home.css';
 
-function Home() {
+const Home = () => { 
   return (
     <div className="Home">
-     <Navbar />
-     <Header />
-     <Middlenav />
-     <ApplyLabel />
-     <ApplyTitle />
+      <Navbar />
+      <Header />
+      <Middlenav />
+      <ApplicationSection />  
     </div>
   );
-}
+};
 
 export default Home;
