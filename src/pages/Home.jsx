@@ -11,6 +11,7 @@ import Blue from './../componants/Bluediv';
 import SustainabilitySection from '../componants/SustainabilitySection';
 import AwardsSection from '../componants/AwardsSection';
 import WeCareSection from '../componants/WeCareSection';
+import Footer from '../componants/Footer';
 
 
 const Home = () => { 
@@ -27,6 +28,7 @@ const Home = () => {
    <SustainabilitySection />
    <AwardsSection />
    <WeCareSection />
+   <Footer />
   
     </div>
   );
