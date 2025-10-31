@@ -1,0 +1,17 @@
+.news-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.news-main-title {
+  color: #FF8C00;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 0 50px 0;
+}
+
+.news-cards-container {
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+}

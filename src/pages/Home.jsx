@@ -5,6 +5,8 @@ import Middlenav from '../componants/Middlenav';
 import ApplicationSection from '../componants/ApplicationSection';  
 import './Home.css';
 import LearningSection from '../componants/LearningSection';
+import Newssection from '../componants/Newssection';
+import Work from '../componants/Work';
 
 const Home = () => { 
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <Middlenav />
       <ApplicationSection />  
       <LearningSection />
+      <Newssection />
+      <Work />
     </div>
   );
 };
