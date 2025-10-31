@@ -1,9 +1,9 @@
 import React from 'react';
 import './AwardsSection.css';
 // Assuming you have SVG icons for these, replace with actual paths
-import AwardIcon1 from '../Assets/award-icon-1.svg';
-import AwardIcon2 from '../Assets/award-icon-2.svg';
-import AwardIcon3 from '../Assets/award-icon-3.svg';
+import AwardIcon1 from '../Assets/Group-1.png';
+import AwardIcon2 from '../Assets/Group.png';
+import AwardIcon3 from '../Assets/dd.png';
 
 const awards = [
   {

@@ -9,6 +9,7 @@ import Newssection from '../componants/Newssection';
 import Work from '../componants/Work';
 import Blue from './../componants/Bluediv';
 import SustainabilitySection from '../componants/SustainabilitySection';
+import AwardsSection from '../componants/AwardsSection';
 
 
 const Home = () => { 
@@ -23,6 +24,7 @@ const Home = () => {
       <Work />
    <Blue />
    <SustainabilitySection />
+   <AwardsSection />
   
     </div>
   );
